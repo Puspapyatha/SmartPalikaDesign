@@ -163,6 +163,13 @@
              .imageCard1:hover ~ .imageCardText{
                 color: limegreen;
             }
+
+            .imageCard2:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard2:hover ~ .imageCardText{
+                color: limegreen;
+            }
         </style>
     </head>
     <body class="">
