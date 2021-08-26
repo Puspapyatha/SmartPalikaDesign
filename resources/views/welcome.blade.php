@@ -30,6 +30,7 @@
 
             .imageCard1{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/profile.png'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
 
             .imageCard1:hover{
@@ -41,6 +42,7 @@
 
             .imageCard2{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/e-Naksha.webp'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
 
             .imageCard2:hover{
@@ -52,6 +54,7 @@
 
             .imageCard3{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/people_connection.png'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
 
             .imageCard3:hover{
@@ -63,6 +66,7 @@
 
             .imageCard4{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/jana_gunasho.jpg'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
             .imageCard4:hover{
                 width: 75px;
@@ -73,6 +77,7 @@
 
             .imageCard5{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/emergency services.jpg'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
 
             .imageCard5:hover{
@@ -84,6 +89,7 @@
 
             .imageCard6{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/e meeting.png'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
 
             .imageCard6:hover{
@@ -95,6 +101,7 @@
 
             .imageCard7{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/ghatana records.jpg'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
 
             .imageCard7:hover{
@@ -106,6 +113,7 @@
 
             .imageCard8{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/dartaa chalani.png'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
 
             .imageCard8:hover{
@@ -118,6 +126,7 @@
 
             .imageCard9{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/nagarik kagajpatra.png'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
             .imageCard9:hover{
                 width: 75px;
@@ -128,6 +137,7 @@
 
             .imageCard10{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/inventory.png'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
             .imageCard10:hover{
                 width: 75px;
@@ -138,6 +148,7 @@
 
             .imageCard11{
                 background: white; border-radius: 10px; height: 70px; width: 70px;  box-shadow: 2px 2px 2px 2px #888888; background-image: url('{{URL::to(`/`)}}/img/information.jpg'); background-repeat: no-repeat; background-position: center; object-fit: none; background-size: 70px 70px;
+                cursor: pointer;
             }
             .imageCard11:hover{
                 width: 75px;
@@ -170,6 +181,69 @@
              .imageCard2:hover ~ .imageCardText{
                 color: limegreen;
             }
+
+            .imageCard3:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard3:hover ~ .imageCardText{
+                color: limegreen;
+            }
+
+            .imageCard4:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard4:hover ~ .imageCardText{
+                color: limegreen;
+            }
+
+            .imageCard5:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard5:hover ~ .imageCardText{
+                color: limegreen;
+            }
+            .imageCard6:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard6:hover ~ .imageCardText{
+                color: limegreen;
+            }
+
+            .imageCard7:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard7:hover ~ .imageCardText{
+                color: limegreen;
+            }
+
+            .imageCard8:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard8:hover ~ .imageCardText{
+                color: limegreen;
+            }
+
+            .imageCard9:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard9:hover ~ .imageCardText{
+                color: limegreen;
+            }
+
+            .imageCard10:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard10:hover ~ .imageCardText{
+                color: limegreen;
+            }
+
+            .imageCard11:hover + .imageCardText{
+                color: limegreen;
+            }
+             .imageCard11:hover ~ .imageCardText{
+                color: limegreen;
+            }
+
         </style>
     </head>
     <body class="">
